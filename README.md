@@ -30,3 +30,9 @@ To compile this resume on your local machine:
    ```bash
    git clone https://github.com/yourusername/latex-resume-template.git
    cd latex-resume-template
+
+2. If complie by using Online Version of Latex, 
+        :Please go https://www.overleaf.com/project
+   Else:
+        Download Latex https://www.latex-project.org/get/
+   
