@@ -1,0 +1,133 @@
+%-------------------------
+% Resume in LaTeX
+% Template Author : Longy Zhang
+% License : MIT
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\item\small{\textbf{#1}: #2}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\Huge Firstname Lastname} & \href{https://github.com/yourusername}{GitHub} \\
+City, Country & \href{mailto:email@example.com}{email@example.com} \\
+Phone: (000) 000-0000 & \href{https://www.linkedin.com/in/yourprofile}{LinkedIn} \\
+\end{tabular*}
+
+\section{Professional Summary}
+Cloud System Administrator with 2+ years of experience managing large-scale AWS infrastructure and automating processes using Python (Boto3), Ansible, AWS Lambda, Step Functions, and PowerShell across Red Hat Enterprise Linux and Windows.\\
+Background in software development enhances understanding of both Dev and Ops workflows.\\
+Keen to grow professionally as a DevOps and Cloud Engineer.
+
+\section{Education}
+\textbf{University Name}, City, Country \hfill Month YYYY -- Month YYYY\\
+Bachelor of Computer Science\\
+Overall GPA: X.XX
+
+\section{Certifications}
+\resumeSubHeadingListStart
+  \item AWS Certified Cloud Practitioner
+  \item AWS Certified Solutions Architect – Associate
+  \item ITIL® 4 Foundation - IT Service Management
+  \item Terraform Completion Certificate - Udemy
+  \item Currently pursuing AWS Certified Developer – Associate
+\resumeSubHeadingListEnd
+
+\section{Professional Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Cloud System Administrator}{Month YYYY – Present}
+{Company Name}{City, Country}
+\resumeItemListStart
+\resumeSubItem{AWS Infrastructure Management}{Managed 500+ EC2 instances and RDS databases across multiple regions and OS types.}
+\resumeSubItem{Network Configuration}{Configured secure networking between cloud services and VPCs using VPC Peering, Transit Gateway, and routing tables.}
+\resumeSubItem{Incident Response}{Resolved critical infrastructure issues, minimizing downtime and mitigating risks.}
+\resumeSubItem{Automation}{Used Python and PowerShell to automate routine operational tasks.}
+\resumeSubItem{Monitoring \& Logging}{Built monitoring systems using CloudWatch, Ansible, and Sumologic.}
+\resumeSubItem{Operational Support}{Provided 24/7 on-call support for infrastructure-related incidents.}
+\resumeSubItem{Client Interaction}{Handled support tickets and service requests with timely resolution.}
+\resumeItemListEnd
+
+\resumeSubheading
+{GIS Software Developer}{Month YYYY – Month YYYY}
+{Company Name}{City, Country}
+\resumeItemListStart
+\resumeSubItem{Application Development}{Created automated GIS solutions using Magik and scripting languages.}
+\resumeSubItem{Version Control}{Migrated codebase to Git and improved team workflows.}
+\resumeSubItem{Automation}{Implemented workflows using Microsoft Power Automate.}
+\resumeSubItem{System Maintenance}{Performed regular updates and patches for GIS environments.}
+\resumeSubItem{Client Support}{Resolved client issues, enhancing service quality.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\resumeSubHeadingListStart
+\item \textbf{Cloud \& DevOps}: AWS, Terraform, Ansible, CI/CD, Python Boto3, Lambda, Step Functions, CloudWatch, WAF, RDS, S3, etc.
+\item \textbf{Containers \& Virtualization}: Docker, Kubernetes, VMware
+\item \textbf{Programming}: Python, Bash, PowerShell, JavaScript, C++
+\item \textbf{Monitoring \& Security}: Sumologic, Pingdom, CloudWatch, CrowdStrike
+\item \textbf{Web Development}: React, HTML, CSS, JavaScript, Bootstrap
+\item \textbf{Databases \& Analytics}: MySQL, PostgreSQL, SQL Server, PowerBI
+\item \textbf{GIS Technologies}: ArcGIS, Smallworld, QGIS
+\item \textbf{Tools}: Git, Bitbucket, Azure DevOps, Jira
+\resumeSubHeadingListEnd
+
+\section{Personal Projects}
+\resumeSubHeadingListStart
+\item \textbf{Portfolio Website}: Built with React, HTML5, and CSS3 to showcase technical projects.\\
+\href{https://yourportfolio.com}{yourportfolio.com}
+\item \textbf{React Todo List App}: React-based task management app with efficient state management.\\
+\href{https://github.com/yourusername/react-todo}{GitHub Link}
+\resumeSubHeadingListEnd
+
+\section{References}
+Available upon request.
+
+\end{document}
