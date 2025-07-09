@@ -35,4 +35,6 @@ To compile this resume on your local machine:
         :Please go https://www.overleaf.com/project
    Else:
         Download Latex https://www.latex-project.org/get/
-   
+
+## 🧑‍💻 How it look
+![image](https://github.com/user-attachments/assets/b95bd101-46d7-4b5f-9443-47eb0b19642d)
