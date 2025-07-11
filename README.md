@@ -28,7 +28,7 @@ To compile this resume on your local machine:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/latex-resume-template.git
+   git clone https://github.com/LongyZhang/Latex-Overleaf-Resume-Template.git
    cd latex-resume-template
 
 2. If complie by using Online Version of Latex, 
